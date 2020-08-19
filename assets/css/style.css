@@ -1392,6 +1392,8 @@ section {
   max-width: 90% !important;
 }
 
-.portfolio-details-carousel div:nth-child(1) {
-  height: 600px;
+@media (min-width: 1024px) {
+  .portfolio-details-carousel div:nth-child(1) {
+    height: 600px;
+  }
 }
