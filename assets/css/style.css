@@ -1395,6 +1395,7 @@ section {
 }
 
 @media (min-width: 1024px) {
+  
   .portfolio-details-carousel div:nth-child(1) {
     height: 600px;
   }
@@ -1412,5 +1413,14 @@ section {
     z-index: 1;
     width: 350px;
     height: 310px;
+  }
+  #footer .container .row {
+    justify-content: space-around;
+  }
+  .owl-carousel.owl-drag .owl-item {
+    height: 100%;
+  }
+  .owl-carousel.owl-drag .owl-item img {
+    height: 100%;
   }
 }
